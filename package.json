@@ -1,0 +1,30 @@
+{
+  "name": "umi",
+  "private": true,
+  "author": "ran <469716734@qq.com>",
+  "scripts": {
+    "dev": "max dev",
+    "build": "max build",
+    "format": "prettier --cache --write .",
+    "prepare": "husky install",
+    "postinstall": "max setup",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@ant-design/pro-components": "^2.0.1",
+    "@umijs/max": "^4.0.47",
+    "antd": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.x",
+    "@types/react-dom": "^17.x",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-imports": "^2",
+    "prettier-plugin-packagejson": "^2",
+    "typescript": "^4.1.2"
+  }
+}
